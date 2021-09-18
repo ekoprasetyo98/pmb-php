@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.btn{
+	border-radius: 35px;
+	background-color: #cb9de0;
+	border: none;
+}
+
+.btn:hover{
+	background-color: #8424bc;
+	transition: 0.	2s ease-in-out;
+}
+
+.login{
+	margin-top: 20vh;
+}
+
+.form-login{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.form-login h4{
+	margin-bottom: 45px;
+}
+
+nav{
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.carousel-inner img{
+	height: 500px;
+	object-fit: cover;
+}
+
+.carousel-caption{
+	background-image: linear-gradient(#333, #332);
+	border-radius: 15px;
+
+}
+
+.form-control{
+	border-width: 0 0 1px 0;
+	border-color: #cb9de0;
+}
+
+.form-control:focus{
+	box-shadow: none;
+}
+
+.action .btn{
+	border-radius: 0;
+}
